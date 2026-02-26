@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-alpha-red: #ff0000;
+  --color-alpha-gold: #d4af37;
+  --color-alpha-black: #0a0a0a;
+}
+
+@layer base {
+  body {
+    @apply bg-alpha-black text-white font-sans antialiased selection:bg-alpha-red selection:text-white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+  }
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl;
+}
+
+.glass-card-hover {
+  @apply hover:bg-white/10 hover:border-alpha-red/30 hover:shadow-[0_0_30px_rgba(255,0,0,0.1)] transition-all duration-500;
+}
+
+.alpha-gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white via-white/80 to-white/50;
+}
+
+.red-glow {
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+}
+
+.red-glow-strong {
+  box-shadow: 0 0 40px rgba(255, 0, 0, 0.4);
+}
+
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3%3Ffilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+.grid-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.1;
+  background-image: linear-gradient(to right, #ffffff05 1px, transparent 1px),
+    linear-gradient(to bottom, #ffffff05 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.radial-gradient-bg {
+  background: radial-gradient(circle at 50% 50%, #1a0000 0%, #000000 100%);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/20 rounded-full hover:bg-white/30 transition-colors;
+}
