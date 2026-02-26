@@ -22,7 +22,7 @@ export const CATEGORIES: Category[] = [
     subtitle: 'Eleve sua testosterona pelo movimento',
     icon: '💪',
     color: 'text-red-500',
-    image: 'https://picsum.photos/seed/alpha-treino/1200/800',
+    image: 'https://i.imgur.com/Ym2h8MC.png',
     videos: [
       { id: '1', title: 'Treino de Força Base', url: 'https://www.youtube.com/watch?v=ri7k-a3ZwhI' },
       { id: '2', title: 'Compostos e Hormônios', url: 'https://www.youtube.com/watch?v=5ZLAxK7jrQ4' },
@@ -35,7 +35,7 @@ export const CATEGORIES: Category[] = [
     subtitle: 'Coma para elevar seu hormônio',
     icon: '🥩',
     color: 'text-orange-500',
-    image: 'https://picsum.photos/seed/alpha-food/1200/800',
+    image: 'https://i.imgur.com/vZPB44Y.png',
     videos: [
       { id: '4', title: 'Dieta da Testosterona', url: 'https://www.youtube.com/watch?v=jTdk4JWAWAk' },
       { id: '5', title: 'Gorduras e Colesterol', url: 'https://www.youtube.com/watch?v=zvESwoRIDek' },
@@ -48,7 +48,7 @@ export const CATEGORIES: Category[] = [
     subtitle: '90% da testosterona é produzida aqui',
     icon: '😴',
     color: 'text-blue-500',
-    image: 'https://picsum.photos/seed/alpha-sleep/1200/800',
+    image: 'https://i.imgur.com/ZSKpMOG.png',
     videos: [
       { id: '7', title: 'Higiene do Sono', url: 'https://www.youtube.com/watch?v=faiFJnM5XDA' },
       { id: '8', title: 'Ciclo Circadiano', url: 'https://www.youtube.com/watch?v=wsfmlleudqA' },
@@ -60,7 +60,7 @@ export const CATEGORIES: Category[] = [
     subtitle: 'O inimigo invisível da testosterona',
     icon: '🧠',
     color: 'text-purple-500',
-    image: 'https://picsum.photos/seed/alpha-stress/1200/800',
+    image: 'https://i.imgur.com/WaXylH4.png',
     videos: [
       { id: '9', title: 'Controlando o Cortisol', url: 'https://www.youtube.com/watch?v=YS1G68alUkM' },
     ]
@@ -71,7 +71,7 @@ export const CATEGORIES: Category[] = [
     subtitle: 'A primeira impressão começa aqui',
     icon: '💈',
     color: 'text-yellow-500',
-    image: 'https://picsum.photos/seed/alpha-look/1200/800',
+    image: 'https://i.imgur.com/n0BfwKf.png',
     videos: [
       { id: '10', title: 'Grooming e Estilo', url: 'https://www.youtube.com/watch?v=W_isgdHzwTw' },
       { id: '11', title: 'Cuidados com a Pele', url: 'https://www.youtube.com/watch?v=hdm382To_YM' },
@@ -84,7 +84,7 @@ export const CATEGORIES: Category[] = [
     subtitle: 'Quem você é determina o que você atrai',
     icon: '🔥',
     color: 'text-red-600',
-    image: 'https://picsum.photos/seed/alpha-mind/1200/800',
+    image: 'https://i.imgur.com/dQTij06.png',
     videos: [
       { id: '13', title: 'Linguagem Corporal', url: 'https://www.youtube.com/watch?v=c6IwK2BoasQ' },
       { id: '14', title: 'Disciplina e Foco', url: 'https://www.youtube.com/watch?v=ujqJfykzBhU' },
@@ -98,7 +98,7 @@ export const CATEGORIES: Category[] = [
     subtitle: 'O que funciona de verdade',
     icon: '💊',
     color: 'text-emerald-500',
-    image: 'https://picsum.photos/seed/alpha-supps/1200/800',
+    image: 'https://i.imgur.com/OZcyW3R.png',
     videos: [
       { id: '17', title: 'Top Suplementos T', url: 'https://www.youtube.com/watch?v=qT6JbY6xbZI' },
       { id: '18', title: 'Vitaminas e Minerais', url: 'https://www.youtube.com/watch?v=akcJHdDeDoo' },
@@ -110,7 +110,7 @@ export const CATEGORIES: Category[] = [
     subtitle: 'Não existe atalho. Existe escolha.',
     icon: '👑',
     color: 'text-amber-600',
-    image: 'https://picsum.photos/seed/alpha-king/1200/800',
+    image: 'https://i.imgur.com/TrVcIT9.png',
     videos: [
       { id: '19', title: 'O Custo da Fraqueza', url: 'https://www.youtube.com/watch?v=I3Z5X3o65Ic' },
       { id: '20', title: 'Legado Masculino', url: 'https://www.youtube.com/watch?v=v4BLh6VOWAw' },
